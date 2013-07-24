@@ -197,15 +197,18 @@ There is a lot of information in a tiny package. When things go wrong in your ap
 Visit this url: [localhost:3000/users](http://localhost:3000/users) and then find the log entry. Then open up the readme.md you copied onto your local machine and fill out this information:
 
 
-HTTP verb used in this request:
-URL:
-Controller Name:
-Controller Action:
-View File Name:
-Layout File Name:
-Response code of the request:
+HTTP verb used in this request: GET
+URL: 127.0.0.1/users
+Controller Name: UsersController
+Controller Action: Processing by UsersController#index as HTML
+View File Name: users/index.html.erb
+Layout File Name: layouts/application
+Response code of the request: 200
 
 You should also notice a new line or two that we didn't see before, what is it (copy and paste, hint: after User Load) ?
+
+Connecting to database specified by database.yml
+User Load (0.4ms)  SELECT "users".* FROM "users"
 
 Why do you think this line is there?
 
