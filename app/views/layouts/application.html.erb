@@ -8,7 +8,18 @@
 </head>
 <body>
 
+<%= link_to "lisa Website", "http://lisaliu.info" %>
+
+<%= link_to "User list", users_path %>
+
+<%= link_to "Product list", products_path %>
+
+<%= params[:format] %>
+
+<%= params.inspect %>
+
 <%= yield %>
+
 
 </body>
 </html>
